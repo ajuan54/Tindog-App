@@ -1,0 +1,84 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+@media(min-width: 480px){
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    padding: 1em;
+}
+
+.logo {
+    width: 6rem;
+    height: 3rem;
+}
+.profile, .icon-chat{
+    width: 2rem;
+    height: 2rem;
+}
+
+#nope, #like{
+    /* padding: 10px; */
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0px 10px 20px #E9E9EA;
+    width: 75px;
+    height: 75px;
+    left: 150px;
+    top: 390px;
+}
+#nope:hover, #nope:focus {
+    background-color: #FFE7EF;
+}
+
+#like:hover, #like:focus{
+    background-color: #DBFFF4;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    margin: 1rem 0;
+}
+
+
+#info .dog-img {
+    width: 100%;
+    height: 75%;
+    border-radius: 1%;;
+}
+
+#info {
+    position: relative;
+    width: 100%;
+}
+
+.dog-info {
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    left: 10px;
+}
+
+#badge {
+    width: 75%;
+    height: 5px;
+    rotate: -45deg;
+    top: -360px;
+    left: 10px;
+    position: relative;
+}
+
+#badge img {
+    width: 100%;
+}
+
+.done{
+    margin: 0 4.3em;
+}
+}
